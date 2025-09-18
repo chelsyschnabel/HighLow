@@ -1,0 +1,199 @@
+---
+title: "Loops Assignment"
+author: "Chelsy Schnabel"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+```
+
+## Assignment Comments - Delete Before Creating
+Some of the problems here are under the assumption that these were omitted from the Loops and Conditions class discussions and exploration. Be sure to revise if these items are included in the discussion.
+
+Keep in mind other lesson suggestions, such as removal of probabilities. The removal of code 5 is also an option and can be considered for a later project.
+
+Also, adapt instructions based upon how you'd like to accept the assignment submissions.
+
+## Instructions
+In the provided link on Canvas, please upload your .R file(s) containing your code for the below problems. Name the files as specified by the problem header. Your files must include comments explaining your code and answering any general questions asked in the problem.
+
+You are welcome to borrow the cards from class to help you with this assignment, but will need to return them to your instructor at the assignment due date.
+
+For all example outputs, anything with two astricks around it (\*) is the user's input. For instance, \*\*Y\*\* means the user typed in a Y. For codes, I suggest utilizing sys.sleep to ensure there's a readability pacing as opposed to all text appearing at once.
+
+Though my examples produce similar outputs, your code should utilize sample to select a random number when selecting cards. Picking those numbers yourself would be to hard-code this (see below).
+
+Remember: you will not earn credit if your code has errors or if you hard-code the assignment. In other words, if you force the repeat as opposed to utilizing loops, give the computer the mathematical answer as opposed to having it compute the solution, etc. is hard-coding. If you want the computer to repeat a process, use a loop. If you want the computer to print the solution to 4/9, have it compute 4/9 as opposed to telling it that it is .44444 (assuming the floating point is at 5 decimal places).
+
+## Assignment Problems
+1. highLowTwoDecks.R
+    + Provide the R code and comment explanations for the High Low game that we played in class with two decks.
+    + Please specify in the comments whether your game is player vs. player or player vs. computer.
+    + The code should repeat the game until the player has won four consecutive rounds or guessed wrong.
+    + Below is an example output.
+
+    
+          Welcome to the game of High-low!
+          You will play this game versus a computer dealer.
+          You're playing with two decks, numbers 1 through 9.
+          This means you can have a tie!
+          
+          The computer will reveal their card first.
+          And you will guess whether your card is higher or lower!
+          Your card will then be revealed. Guess right, and you win!
+          Ready? **Y**
+    
+          ------------------------------
+                     ROUND 1
+          ------------------------------
+          The dealer's card is... 6
+          Do you guess that your card is (H)igher or (L)ower? **L**
+          Your card is... 2
+          Great job! Keep guessing right and you'll get the prize!
+          
+          ------------------------------
+                     ROUND 2
+          ------------------------------
+          The dealer's card is... 3
+          Do you guess that your card is (H)igher or (L)ower? **H**
+          Your card is... 1
+          You lose. Game over.
+
+    
+2. highLowOneDeck.R
+    + Provide the R code and comment explanations for the version of the High Low game where the players use a SINGLE deck (i.e. there is no chance of a tie).
+    + Please specify in the comments whether your game is player vs. plater or player vs. computer.
+    + The code should repeat the game until the player has won four consecutive rounds or guessed wrong.
+    + Below is an example output.
+    
+          Welcome to the game of High-low!
+          You will play this game versus a computer dealer.
+          You're playing with one deck, numbers 1 through 9.
+          This means there is no chance of a tie!
+          
+          The computer will reveal their card first.
+          And you will guess whether your card is higher or lower!
+          Your card will then be revealed. Guess right, and you win!
+          Ready? **Y**
+    
+          ------------------------------
+                     ROUND 1
+          ------------------------------
+          The dealer's card is... 6
+          Do you guess that your card is (H)igher or (L)ower? **L**
+          Your card is... 2
+          Great job! Keep guessing right and you'll get the prize!
+          
+          ------------------------------
+                     ROUND 2
+          ------------------------------
+          The dealer's card is... 3
+          Do you guess that your card is (H)igher or (L)ower? **H**
+          Your card is... 1
+          You lose. Game over.
+
+    
+3. highLowWithProb.R
+    + Provide the R code and comment explanations expanding on the code from problem 1 or 2 that includes the probabilities of the second player's card being higher or lower than the first player's card.
+    + Keep in mind that with version 1, you also need to consider the probability of a tie.
+    + The code should repeat the game until the player has won four consecutive rounds or guessed wrong.
+    + Below is an example output.
+
+    
+          Welcome to the game of High-low!
+          You will play this game versus a computer dealer.
+          You're playing with two decks, numbers 1 through 9.
+          The computer will reveal their card first.
+          And you will guess whether your card is higher or lower!
+          Guess right, and you win!
+          Ready? **Y**
+
+          ------------------------------
+                     ROUND 1
+          ------------------------------
+          The dealer's card is... 6
+          The probability the other card is higher is... 33.33333 %
+          The probability the other card is lower is... 55.55556 %
+          The probability the other card is the same is... 11.11111 %
+          Do you guess that your card is (H)igher or (L)ower? **L**
+          Your card is... 2
+          Great job! Keep guessing right and you'll get the prize!
+          
+          ------------------------------
+                     ROUND 2
+          ------------------------------
+          The dealer's card is... 3
+          The probability the other card is higher is... 66.66667 %
+          The probability the other card is lower is... 22.22222 %
+          The probability the other card is the same is... 11.11111 %
+          Do you guess that your card is (H)igher or (L)ower? **H**
+          Your card is... 1
+          You lose. Game over.
+    
+4. highLowOptions.R 
+    + Provide the R code and comment explanations where the program user has the option to select whether they wish to play the game from question 1 or the game from question 2.
+    + Allow the user to choose whether they want to set a number of rounds or if they want to play until they guess wrong.
+    + Below is an example output.
+    
+          Welcome to the game of High-low!
+          Do you want to play the version where we have (1) one deck or (2) two decks? One deck cannot have a tie, but two decks can have a tie. 2
+          You will play this game versus a computer dealer.
+          You're playing with two decks, numbers 1 through 9.
+          The computer will reveal their card first.
+          And you will guess whether your card is higher or lower!
+          Guess right, and you win!
+          Do you want to (A) set a number of rounds or (B) play until you lose? B
+          Ready? **Y**
+      
+          ------------------------------
+                     ROUND 1
+          ------------------------------
+          The dealer's card is... 6
+          Do you guess that your card is (H)igher or (L)ower? **L**
+          Your card is... 2
+          Great job! Keep guessing right and you'll get the prize!
+          
+          ------------------------------
+                     ROUND 2
+          ------------------------------
+          The dealer's card is... 3
+          Do you guess that your card is (H)igher or (L)ower? **H**
+          Your card is... 1
+          You lose. Game over.
+
+    
+5. highLow6Cards.R
+    + Provide the R code and comment explanations for a version of the High Low game as follows:
+        a. The game is played with a single deck of cards 1-9
+        b. The dealer gives each player 3 cards. The dealer reveals 2 of theirs, the player 1 of theirs. The other cards are not known to the player.
+        c. The player guesses whether the sum of their cards is higher or lower than the sum of the dealer's cards. If they guess correctly, they win! Otherwise, the dealer wins.
+        d. BONUS: include the probabilities for a guess of higher to win versus a guess of lower to win for this version of the game.
+    + Below is an example output.
+        
+          Welcome to the game of High-low!
+          You will play this game versus a computer dealer.
+          You're playing with one deck, numbers 1 through 9.
+          Three cards for you, three cards for me. You flip one of yours over, and I flip two of mine.
+          And you will guess whether the sum of your three are higher or lower than the sum of my three!
+          Guess right, and you win!
+          Ready? **Y**
+
+          ------------------------------
+                     ROUND 1
+          ------------------------------
+          My two cards are...  9  and  7
+          My current sum is  16
+          Your card is...  2
+          What is your call? Will your total be higher (h) or lower (l) than mine?  **l**
+          
+          You're going with  low , then? Right, let's see what we've got. 
+          Your second card is...  5 
+          My third card is...  3 
+          Your third card is...  8
+          
+          My cards add up to...  19 . And you have... 
+          ... a total of  15
+          Congratulations! Your guess was right!
+          
+          Do you wan to play again?
+          (Will you reply 'yes' or 'no'?) **n**
