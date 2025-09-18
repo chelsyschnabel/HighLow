@@ -140,6 +140,21 @@ The project includes discussion of several advanced topics:
 Chelsy Schnabel  
 Original development: June 2023
 
-## Educational Use
+## License
 
-This material is designed for educational purposes. Instructors are encouraged to adapt and modify content to suit their specific classroom needs and student populations.
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+
+### What this means:
+- **Share**: You may copy and redistribute this material in any medium or format
+- **Adapt**: You may remix, transform, and build upon this material
+- **Attribution Required**: You must give appropriate credit to Chelsy Schnabel
+- **Non-Commercial**: You may not use this material for commercial purposes
+- **No Additional Restrictions**: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits
+
+### For Educators
+This material is designed for educational purposes. Instructors are encouraged to adapt and modify content to suit their specific classroom needs and student populations. When sharing or adapting this work, please maintain attribution to the original author.
