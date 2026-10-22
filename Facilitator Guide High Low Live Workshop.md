@@ -1,6 +1,6 @@
 # Facilitator Guide: High Low Live Workshop
 
-Oct 21, 2026 · @Zyelda
+Oct 22, 2026
 
 ## Session at a glance
 
@@ -100,6 +100,8 @@ If the session runs long, shorten the extension choice first, then the quick che
 | repeat until | `while (!condition)` |
 
 Use it during the debug clinic or in a breakout room: have the participant play a round, point to the matching block, then find the same step in their R code. Seeing the logic first and the syntax second helps learners realize the concepts are the same and only the notation differs. The Scratch version also gives everyone a shared, visual way to play the opening game without seeing any code.
+
+Not sure about creating your own with Scratch? Here is my [Scratch version](https://scratch.mit.edu/projects/1394284908)! [https://scratch.mit.edu/projects/1394284908](https://scratch.mit.edu/projects/1394284908)
 
 ## After the session
 
