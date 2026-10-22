@@ -121,10 +121,18 @@ The project includes discussion of several advanced topics:
 - Omit probability calculations and focus purely on programming logic
 - Emphasize algorithmic thinking over mathematical concepts
 
+### Other Languages
+- This can easily be adapter for use in other programming languages, such as Python or Scratch
+- Feel free to use this [working Scratch sample](https://scratch.mit.edu/projects/1394284908/)
+
 ### For Advanced Students
 - Include comprehensive probability analysis
 - Explore more complex game variations
 - Implement additional user interface features
+
+### Remote Learning
+- In place of physical cards, allow students to play with this [working Scratch sample](https://scratch.mit.edu/projects/1394284908/)
+- Utilize breakout rooms for partners to strategize guesses and coding
 
 ### Time Modifications
 - Core lesson can be completed in 2-3 class periods
@@ -139,6 +147,7 @@ The project includes discussion of several advanced topics:
 
 Chelsy Schnabel  
 Original development: June 2023
+Latest Revision: October 2026
 
 ## License
 
