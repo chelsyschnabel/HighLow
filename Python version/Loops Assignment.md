@@ -1,5 +1,4 @@
-Stand-in for the assignment instructions file.
-This will be the original file. This will be rewritten in Junyper Notebook at a later date.
+This will be rewritten in Junyper Notebook at a later date.
 
 ## Assignment Comments - Delete Before Creating
 Some of the problems here are under the assumption that these were omitted from the Loops and Conditions class discussions and exploration. Be sure to revise if these items are included in the discussion.
