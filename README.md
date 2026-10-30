@@ -58,7 +58,9 @@ The assignment is designed as a multi-day lesson that builds complexity:
 ## Author
 
 Chelsy Schnabel  
+
 Original development: June 2023
+
 Latest Revision: October 2026
 
 ## License
