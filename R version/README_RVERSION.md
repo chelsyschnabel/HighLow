@@ -84,7 +84,7 @@ The project includes discussion of several advanced topics:
 - Emphasize algorithmic thinking over mathematical concepts
 
 ### Other Languages
-- This can easily be adapted for use in other programming languages, such as Python or Scratch
+- This can easily be adapted for use in other programming languages, such as Python (see the Python version in this repository) or Scratch
 - Feel free to use this [working Scratch sample](https://scratch.mit.edu/projects/1394284908/)
 
 ### For Advanced Students
