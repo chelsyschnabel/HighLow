@@ -77,14 +77,16 @@ highLowRound <- function(){
   }
 }
 
+# version playing three times
 highLowForLoop <- function(){
-  for(i in 1:5){
+  for(i in 1:3){
     cat("ROUND", roundTracker, "\n================================================= \n")
     highLowRound()
     roundTracker <- roundTracker + 1
   }
 }
 
+# verison playing until the player no longer wants to play
 highLowWhileLoop <- function(){
   while(play==TRUE){
     cat("ROUND", roundTracker, "\n================================================= \n")
