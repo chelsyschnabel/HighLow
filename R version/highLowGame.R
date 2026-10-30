@@ -13,8 +13,8 @@ highLowGame <- function(){
     cat("ROUND", roundTracker, "\n================================================= \n")
     
     cat("The first card is...", firstCard, "\n")
-    #cat("The probabilities of high/low are below... \n")
-    average <- mean(cards)
+    # cat("The probabilities of high/low are below... \n")
+    # average <- mean(cards)
     
     # the probability of any one card is 1/9 (i.e. one card out of nine possibilities)
     pTie <- (1/9) * 100
