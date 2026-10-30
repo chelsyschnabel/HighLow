@@ -23,14 +23,14 @@ The assignment is designed as a multi-day lesson that builds complexity:
 
 ### For programming versions
 
-1. **Physical Card Game OR Interactive Scratch Card Game**: Students play with actual numbered cards (1-9) to understand game mechanics
+1. **Physical Card Game OR [Interactive Scratch Card Game](https://scratch.mit.edu/projects/1394284908/)**: Students play with actual numbered cards (1-9) to understand game mechanics
 2. **Single Round Programming**: Implement one round using conditionals (`if`/`else`)
 3. **Multiple Rounds**: Add iteration using `for` loops and `while` loops
 4. **Advanced Features**: Incorporate probability calculations, score tracking, and game variations
 5. **Extensions**: Explore sampling without replacement and alternative game rules
 
 ### For probability version
-1. **Physical Card Game OR Interactive Scratch Card Game**: Students play with actual numbered cards (1-9) to understand game mechanics
+1. **Physical Card Game OR [Interactive Scratch Card Game](https://scratch.mit.edu/projects/1394284908/)**: Students play with actual numbered cards (1-9) to understand game mechanics
 2. **Single Round Probability Computation**: Determine probability based upon a single round
 3. **Multiple Rounds**: Determine probabilities based upon multiple rounds and generalize a formula
 4. **Extensions**: Consider other versions of the high-low game!
