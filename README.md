@@ -1,6 +1,8 @@
-# High Low Card Game - R Programming Assignment
+# High Low Card Game
 
 An introductory R programming exercise that teaches loops and conditional statements through a probability-based card game simulation.
+
+**Oct 29, 2026 Update:** Different versions of this game are added. Different versions of the activity are organized into their respective directories. A separate directory for printable versions of the card files has also been added.
 
 ## Overview
 
