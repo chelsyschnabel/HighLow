@@ -1,6 +1,6 @@
 # High Low Card Game
 
-An introductory R programming exercise that teaches loops and conditional statements through a probability-based card game simulation.
+An introductory exercise for probability or programming (e.g. R, Python).
 
 **Oct 29, 2026 Update:** Different versions of this game are added. Different versions of the activity are organized into their respective directories. A separate directory for printable versions of the card files has also been added.
 
@@ -49,7 +49,7 @@ The assignment is designed as a multi-day lesson that builds complexity:
 ### Software for Python version
 - In development. Stay tuned!
 
-### Software for Probability verison
+### Software for Probability version
 - Scientific calculator is recommended
 
 ## Author
