@@ -65,7 +65,7 @@ The last option is a repeat-loop. I direct students to review some provided arti
 
 For this code, we can write with either loop version. Though the code I have provided utilizes a while-loop, I like to write two versions: one with a for-loop in which the user specifies how many times they want to play the game prior to starting and one with a while-loop like my sample code does.
 
-Below runs the code utilizing a for-loop. In this version, I determined the player is to play four times. I utilize additional discussions/assessment for adjusting this to allow the player to specify how many rounds as well as a way to keep track of the score. Be sure to note that a for-loop runs up until it reaches the last value, so for it to run four times, I have 1 through 5 so that it stops once our iteration reaches 5.
+Below runs the code utilizing a for-loop. In this version, I determined the player is to play four times. I utilize additional discussions/assessment for adjusting this to allow the player to specify how many rounds as well as a way to keep track of the score. Be sure to note that a for-loop runs up until it reaches the last value, so for it to run four times, I have 1 through 4 so that it stops once our iteration reaches 5.
 
 ```{r}
 highLowForLoop()
@@ -78,13 +78,13 @@ highLowWhileLoop()
 ```
 
 ## Final Code
-See the highLowGame.R file (see the tabs above) to see my code that performs looping and conditions all in a single function. This version is player versus AI. Below will render the code for playing with.
+See the highLowGame.R file (see the tabs above) to see my code that performs looping and conditions all in a single function. This version is computer (dealer) vs. player. You would call upon the function like this.
 
 ```{r}
 highLowGame()
 ```
 
-The code above, rather than following my suggestions, is a single function and does some of the additional discussion/assessment suggestions I list above. Namely, it repeats until the user either guesses wrong or until the user guessed four times consecutively. If we code it this way instead, an expansion suggestion could be to ask the user whether they want to continue and allow them to take partial loot as opposed to all loot for guessing right all four times. If they guess wrong, they lose everything.
+The code above, rather than following my suggestions, is a single function and does some of the additional discussion/assessment suggestions I list above. Namely, it repeats until the user either guesses wrong or until the user guessed four times consecutively. If we code it this way instead, an expansion suggestion could be to ask the user whether they want to continue and allow them to take partial loot as opposed to all loot for guessing right all three times. If they guess wrong, they lose everything.
 
 ## Expansion Discussion
 From here, we can discuss more with probability, such as if we were to play the game with only a single deck (i.e. we do not have replacement occurring and thus do not have a chance of a tie). For this, it's highly recommended to bring the cards back out and let the students play the game with only a single deck and arrive to the conclusion that there is no possibility of a tie anymore and that the possibilities vector is adapted after the dealer has played their card. 
