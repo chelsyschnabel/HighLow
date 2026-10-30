@@ -3,9 +3,13 @@ This will be the original file. This will be rewritten in Junyper Notebook at a 
 
 ---
 title: "Loops and Conditions with the High Low Game"
+
 author: "Chelsy Schnabel"
+
 output: pdf_document
+
 date: "2026-10-29"
+
 ---
 
 ## Required Materials
