@@ -19,7 +19,7 @@ In the provided link on Canvas, please upload your .R file(s) containing your co
 
 You are welcome to borrow the cards from class to help you with this assignment, but will need to return them to your instructor at the assignment due date.
 
-For all example outputs, anything with two astricks around it (\*) is the user's input. For instance, \*\*Y\*\* means the user typed in a Y. For codes, I suggest utilizing sys.sleep to ensure there's a readability pacing as opposed to all text appearing at once.
+For all example outputs, anything with two astericks around it (\*) is the user's input. For instance, \*\*Y\*\* means the user typed in a Y. For codes, I suggest utilizing Sys.sleep to ensure there's a readability pacing as opposed to all text appearing at once.
 
 Though my examples produce similar outputs, your code should utilize sample to select a random number when selecting cards. Picking those numbers yourself would be to hard-code this (see below).
 
@@ -62,7 +62,7 @@ Remember: you will not earn credit if your code has errors or if you hard-code t
     
 2. highLowOneDeck.R
     + Provide the R code and comment explanations for the version of the High Low game where the players use a SINGLE deck (i.e. there is no chance of a tie).
-    + Please specify in the comments whether your game is player vs. plater or player vs. computer.
+    + Please specify in the comments whether your game is player vs. player or player vs. computer.
     + The code should repeat the game until the player has won four consecutive rounds or guessed wrong.
     + Below is an example output.
     
@@ -195,5 +195,5 @@ Remember: you will not earn credit if your code has errors or if you hard-code t
           ... a total of  15
           Congratulations! Your guess was right!
           
-          Do you wan to play again?
+          Do you want to play again?
           (Will you reply 'yes' or 'no'?) **n**
