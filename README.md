@@ -47,7 +47,10 @@ The assignment is designed as a multi-day lesson that builds complexity:
 - **No packages required!** This assignment uses only base R functions, making it perfect for introductory students.
 
 ### Software for Python version
-- In development. Stay tuned!
+- Python 3 (for this, I used 3.12.3)
+- IDLE or IDE of your choice
+- Import the `random` library
+- Optional: import the `time` library
 
 ### Software for Probability version
 - Scientific calculator is recommended
