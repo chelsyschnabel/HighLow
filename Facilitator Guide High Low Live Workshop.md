@@ -2,6 +2,8 @@
 
 Oct 22, 2026
 
+**Update Oct 29, 2026:** Adding a note to indicate that this generally is written to be facilitated with the R version of this activity. However, it can be adapted to be ran with any version of the activity! 
+
 ## Session at a glance
 
 This guide adapts the High Low Card Game lesson, originally built as a multi-day classroom assignment, into a single live virtual workshop that a trained presenter can run.
