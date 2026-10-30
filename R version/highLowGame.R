@@ -90,7 +90,7 @@ highLowGame <- function(){
     } 
     # otherwise, advise them that they are getting closer
     # and continue looping until they are either wrong
-    # or successfully unlock the chest (i.e. guess right 5 times)
+    # or successfully unlock the chest (i.e. guess right 3 times)
     else {
       cat("You're getting closer to unlocking the chest, \nbut need to keep going to unlock it completely!\n")
       Sys.sleep(2)
