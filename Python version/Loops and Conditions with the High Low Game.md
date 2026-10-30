@@ -1,4 +1,4 @@
-This will be rewritten in Junyper Notebook at a later date.
+This will be rewritten in Jupyter Notebook at a later date.
 
 ---
 title: "Loops and Conditions with the High Low Game"
