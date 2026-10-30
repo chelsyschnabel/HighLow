@@ -5,7 +5,7 @@ title: "Loops and Conditions with the High Low Game"
 
 author: "Chelsy Schnabel"
 
-output: pdf_document
+output: Markdown Document
 
 date: "2026-10-29"
 
@@ -43,7 +43,7 @@ We now get to explore our new topic of conditions so that the computer can deter
 
 Once we have the code finalized, we then follow the lines step-by-step with the cards in hand, playing through the game without running the code, to ensure we understand how it works and determine if any pieces are missing. We then run the code in the console to ensure that there are no bugs, such as missing curly braces (as this is going to become a more likely issue now that we're expanding to have more and more of them) or parenthesis (which they've likely already experienced at least once by a genuine mistake, not just viewing the mistake or being given the prompt).
 
-NOTE: I have expanded my code into the highLowCode.R file to follow my suggestions. The code should look like the highLowRound function and have the global variables as well (except roundTracker)
+NOTE: I have expanded my code into the highLowCode.py file to follow my suggestions. The code should look like the highLowRound function and have the global variables as well (except roundTracker)
 
 ```
 highLowRound()
