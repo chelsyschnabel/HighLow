@@ -161,10 +161,10 @@ Remember: you will not earn credit if your code has errors or if you hard-code t
     
 5. highLow6Cards.R
     + Provide the R code and comment explanations for a version of the High Low game as follows:
-        a. The game is played with a single deck of cards 1-9
-        b. The dealer gives each player 3 cards. The dealer reveals 2 of theirs, the player 1 of theirs. The other cards are not known to the player.
-        c. The player guesses whether the sum of their cards is higher or lower than the sum of the dealer's cards. If they guess correctly, they win! Otherwise, the dealer wins.
-        d. BONUS: include the probabilities for a guess of higher to win versus a guess of lower to win for this version of the game.
+        1. The game is played with a single deck of cards 1-9
+        2. The dealer gives each player 3 cards. The dealer reveals 2 of theirs, the player 1 of theirs. The other cards are not known to the player.
+        3. The player guesses whether the sum of their cards is higher or lower than the sum of the dealer's cards. If they guess correctly, they win! Otherwise, the dealer wins.
+        4. BONUS: include the probabilities for a guess of higher to win versus a guess of lower to win for this version of the game.
     + Below is an example output.
   
         ```
