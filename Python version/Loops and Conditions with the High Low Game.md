@@ -73,7 +73,7 @@ highLowWhileLoop()
 ```
 
 ## Final Code
-See the highLowGame.R file (see the tabs above) to see my code that performs looping and conditions all in a single function. This version is computer (dealer) vs. player. You would call upon the function like this.
+See the highLowGame.py file (see the tabs above) to see my code that performs looping and conditions all in a single function. This version is computer (dealer) vs. player. You would call upon the function like this.
 
 ```
 highLowGame()
