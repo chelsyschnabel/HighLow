@@ -1,4 +1,4 @@
-In-progress [Jupyter Notebook version](https://anaconda.com/app/share/notebooks/4a01fe57-9d91-4280-b628-35957dbd9cf3/overview): [https://anaconda.com/app/share/notebooks/4a01fe57-9d91-4280-b628-35957dbd9cf3/overview](https://anaconda.com/app/share/notebooks/4a01fe57-9d91-4280-b628-35957dbd9cf3/overview)
+This file is also provided as an interactive Jupyter Notebook. This is a Markdown version of the same document.
 
 ---
 title: "Loops and Conditions with the High Low Game"
