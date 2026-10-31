@@ -1,4 +1,4 @@
-This will be rewritten in Jupyter Notebook at a later date.
+In-progress [Jupyter Notebook version](https://anaconda.com/app/share/notebooks/4a01fe57-9d91-4280-b628-35957dbd9cf3/overview): [https://anaconda.com/app/share/notebooks/4a01fe57-9d91-4280-b628-35957dbd9cf3/overview](https://anaconda.com/app/share/notebooks/4a01fe57-9d91-4280-b628-35957dbd9cf3/overview)
 
 ---
 title: "Loops and Conditions with the High Low Game"
