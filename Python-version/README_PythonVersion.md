@@ -9,7 +9,7 @@
   - Multiple loop implementations (for-loop vs while-loop examples)
   - Probability extensions and adaptations
   - Alternatively, utilize the Jupyter Notebook (`LoopsAndConditionsWithHighLowGame.ipynb`)
-    - Use the [Collab edition(https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelsyschnabel/HighLow/blob/main/Python-version/LoopsAndConditionsWithHighLowGame.ipynb) if you need instruction to be shared in an asynchronous setting! 
+    - [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/chelsyschnabel/HighLow/blob/main/Python-version/LoopsAndConditionsWithHighLowGame.ipynb) if you need instruction to be shared in an asynchronous setting! 
 
 - `Loops Assignment.md`: **Student worksheet**
   - Guided exercises with scaffolded coding prompts
