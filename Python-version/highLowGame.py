@@ -50,7 +50,7 @@ def highLowGame():
 
         # while they input something that isn't H or L
         while guess not in ("H", "L"):
-            guess = input("Let\'s try that again. Do you think the other card is (H)igher or (L)ower? ").upper
+            guess = input("Let\'s try that again. Do you think the other card is (H)igher or (L)ower? ").upper()
 
         if firstCard > secondCard:
             reality = "L"
