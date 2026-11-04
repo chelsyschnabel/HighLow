@@ -65,12 +65,12 @@ Latest Revision: October 2026
 
 ## License
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
+This work is licensed under a [Creative Commons Attribution International License](https://creativecommons.org/licenses/by/4.0/).
 
-[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+[![CC BY 4.0][cc-by-image]][cc-by]
 
-[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
-[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by]: https://creativecommons.org/licenses/by/4.0/
+[cc-by-image]: https://licensebuttons.net/l/by/4.0/88x31.png
 
 ### What this means:
 - **Share**: You may copy and redistribute this material in any medium or format
