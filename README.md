@@ -76,7 +76,6 @@ This work is licensed under a [Creative Commons Attribution International Licens
 - **Share**: You may copy and redistribute this material in any medium or format
 - **Adapt**: You may remix, transform, and build upon this material
 - **Attribution Required**: You must give appropriate credit to Chelsy Schnabel
-- **Non-Commercial**: You may not use this material for commercial purposes
 - **No Additional Restrictions**: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits
 
 ### For Educators
