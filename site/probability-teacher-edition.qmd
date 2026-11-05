@@ -11,11 +11,16 @@ format:
     margin:
       x: 1in
       y: 1in
-format-links:
-  - format: docx
-    text: Word (editable)
-  - format: typst
-    text: PDF (print)
+language:
+  other-links-title: Downloads
+format-links: false
+other-links:
+  - text: Word (editable)
+    href: probability-teacher-edition.docx
+    icon: file-word
+  - text: PDF (print)
+    href: probability-teacher-edition.pdf
+    icon: file-pdf
 ---
 
 <!--
