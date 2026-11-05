@@ -2,6 +2,8 @@
 
 An introductory exercise for probability or programming (e.g. R, Python).
 
+**Nov 2026 Update:** Updates to Probability version, fixes to Python version, deployed Jupyter for Python version. Implemented [website](https://chelsyschnabel.github.io/HighLow/).
+
 **Oct 2026 Update:** Different versions of this game are added. Different versions of the activity are organized into their respective directories. A separate directory for printable versions of the card files has also been added.
 
 ## Overview
