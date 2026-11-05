@@ -6,11 +6,20 @@
     display: none !important;
   }
 
-  body { font-size: 11pt; }
-  a { color: inherit; text-decoration: underline; }
+  /* Always print black text on white, even when the page is in dark mode */
+  html, body, main, #quarto-content, .page-columns, .content,
+  .callout, .callout-body-container, .callout-header,
+  table, thead, tbody, tr, th, td, figure {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+  * { color: #000000 !important; }
+  table, th, td, .callout { border-color: #999999 !important; }
+  img { filter: none !important; }
+  .quarto-color-scheme-toggle { display: none !important; }
 
-  /* Start each top-level section on a new page */
-  h1:not(.title) { break-before: page; }
+  body { font-size: 11pt; }
+  a { color: inherit !important; text-decoration: underline; }
 
   /* Keep headings with what follows, and keep tables and callouts whole */
   h1, h2, h3 { break-after: avoid; }
