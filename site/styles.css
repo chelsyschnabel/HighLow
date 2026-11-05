@@ -1,0 +1,18 @@
+/* Print layout for the web version of the teacher edition */
+@media print {
+  /* Hide site navigation and the table of contents */
+  .navbar, #quarto-header, #quarto-margin-sidebar, #TOC, .sidebar,
+  .quarto-alternate-formats, .page-footer, #quarto-back-to-top {
+    display: none !important;
+  }
+
+  body { font-size: 11pt; }
+  a { color: inherit; text-decoration: underline; }
+
+  /* Start each top-level section on a new page */
+  h1:not(.title) { break-before: page; }
+
+  /* Keep headings with what follows, and keep tables and callouts whole */
+  h1, h2, h3 { break-after: avoid; }
+  table, .callout, figure, img { break-inside: avoid; }
+}

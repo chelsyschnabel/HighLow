@@ -1,0 +1,21 @@
+---
+title: "High Low"
+subtitle: "A card game for teaching probability and computational thinking"
+toc: false
+---
+
+<!-- Starter home page. Expand this into the full GitHub Pages site later. -->
+
+High Low is a two-player card game built from a deck of cards numbered 1 to 9. The dealer flips a card, and the player guesses whether the next card will be higher or lower. The same game supports a probability lesson for grades 6 to 8 and programming lessons in Scratch, Python, and R.
+
+## Probability lesson
+
+- [Probability Teacher Edition](probability-teacher-edition.qmd), with downloads in Word and PDF
+- [Player cards (Word)](https://github.com/chelsyschnabel/HighLow/raw/main/Card-Files/cards%201%20through%209.docx)
+- [Demonstration cards (Word)](https://github.com/chelsyschnabel/HighLow/raw/main/Card-Files/1%20through%209%20big%20demo%20cards.docx)
+
+## Programming versions
+
+- [Play the Scratch version](https://scratch.mit.edu/projects/1394284908/)
+- [Python version](https://github.com/chelsyschnabel/HighLow/tree/main/Python-version) (lesson files in its folder)
+- [R version](https://github.com/chelsyschnabel/HighLow/tree/main/R-version) (lesson files in its folder)

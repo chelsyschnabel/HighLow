@@ -1,0 +1,28 @@
+project:
+  type: website
+  output-dir: _site
+  # Only these files are rendered. The R and Python lessons elsewhere in the
+  # repo are left alone.
+  render:
+    - index.qmd
+    - probability-teacher-edition.qmd
+
+website:
+  title: "High Low"
+  repo-url: https://github.com/chelsyschnabel/HighLow
+  repo-actions: [source, issue]
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: probability-teacher-edition.qmd
+        text: "Probability Teacher Edition"
+  page-footer:
+    center: "High Low by Chelsy Schnabel is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)."
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2

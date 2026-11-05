@@ -1,0 +1,243 @@
+---
+title: "High Low Probabilities"
+subtitle: "Teacher Edition: Probability Version"
+author: "Chelsy Schnabel"
+format:
+  html: default
+  docx:
+    toc: false
+  typst:
+    papersize: us-letter
+    margin:
+      x: 1in
+      y: 1in
+format-links:
+  - format: docx
+    text: Word (editable)
+  - format: typst
+    text: PDF (print)
+---
+
+<!--
+EDITING NOTES
+- This is the teacher edition for the PROBABILITY version only. The Python and R
+  versions have their own teacher materials.
+- Edit this file in GitHub's browser editor. Each commit rebuilds the web page,
+  the Word file, and the PDF.
+- Comments like this one never appear in the outputs. Notes marked NOTE carry
+  over the standards and consistency comments from the annotated .docx review.
+- The scorecards and card decks are separate files, linked in "Printable
+  Materials." Update those links when the Canva versions are ready.
+-->
+
+# Activity Licensing Information
+
+© 2023. This work is openly licensed via [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Please feel free to alter this activity as needed for the needs of students.
+
+## Citation
+
+"High Low Probabilities" by Chelsy Schnabel is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+![](images/cc-by.png){width=0.93in fig-alt="CC BY 4.0 license badge"}
+
+# Printable Materials
+
+::: {.callout-note}
+## Print these before class
+
+These materials are separate files. The sections below refer to them as needed.
+
+- **Player cards:** one deck of cards numbered 1 to 9 for each student. [Download (Word)](https://github.com/chelsyschnabel/HighLow/raw/main/Card-Files/cards%201%20through%209.docx)
+- **Demonstration cards:** large cards for the instructor. [Download (Word)](https://github.com/chelsyschnabel/HighLow/raw/main/Card-Files/1%20through%209%20big%20demo%20cards.docx)
+- **Scorecards, Game Versions 1 to 4:** one per student for each version played. <!-- TODO: link the separate scorecard file once it exists. Until then, the scorecards are in the original Word teacher edition, linked below. --> [Download the original teacher edition (Word), pages 5 to 8](https://github.com/chelsyschnabel/HighLow/raw/main/Probability-version/High%20Low%20Instructions.docx)
+- **Scorecards, Alternative Versions 1 to 3:** only needed if you use the alternative versions. <!-- TODO: link the separate alternative scorecard file once it exists. --> [Download the original teacher edition (Word), pages 19 to 21](https://github.com/chelsyschnabel/HighLow/raw/main/Probability-version/High%20Low%20Instructions.docx)
+:::
+
+The scorecards help the instructor understand the events of each round, give students the opportunity to compute the probabilities prior to making a guess, and keep track of scores. **The scorecard tables are not accessible on a screen reader. Please add alt text prior to using a screen reader.**
+
+If the player cards are used, it is recommended that the underlines are retained, especially for differentiating between 6 and 9, and the cards are laminated. The cards will need to be cut prior to use.
+
+The demonstration cards are for the instructor if the instructor is unable to project the videos for demonstrating the games to the students.
+
+# Accessibility
+
+To accommodate blind students, consider partnering them with a student who is not blind and has their partner communicate what numbers are revealed. Consider alternative methods for the scorecard.
+
+When printing the cards, ensure that light colors are utilized to ensure that the numbers are distinctly visible for students with color blindness. Avoid the use of red and green to differentiate partners.
+
+The scorecards are not accessible on a screen reader. If your students need to utilize a screen reader for the scorecard, please add alt text to each table.
+
+# Lesson: Probability
+
+The purpose of this lesson is to connect what students have learned about probability, including determining when to utilize the calculation of probability with or without replacement. They will also consider whether events are dependent or independent of one another.
+
+<!-- NOTE: "With or without replacement" links to 7.SP.C.8a. "Dependent or independent" is formally high school (S-CP.2, S-CP.5), so label it as an extension or reword for grade 7 as "whether one round affects the next." -->
+
+## Learning Objectives and Standards
+
+<!-- TODO: Draft carried over from the annotated .docx. Revise in your own voice, then delete this comment. -->
+
+Core objectives use Game Version 1 and target grade 7 (CCSS 7.SP.C.5 to 8b). Versions with ties, dependent rounds, and the alternative versions are extensions that reach 7.SP.C.8c and high school probability.
+
+Students will be able to:
+
+- **Core:** Express the probability that the next card is higher or lower as a fraction between 0 and 1, and use it to choose a guess. (7.SP.C.5, 7.SP.C.7a)
+- **Core:** Describe the sample space for one round of Game Version 1 using a list or table, and explain why a tie cannot happen. (7.SP.C.8a, 7.SP.C.8b)
+- **Core:** Collect results from repeated rounds and compare observed win frequencies to predicted probabilities. (7.SP.C.6, 7.SP.C.7)
+- **Extension:** Explain how the sample space and the chance of winning change when ties are possible and count as a loss, as in Game Version 2. (7.SP.C.8a, 7.SP.C.8b)
+- **Extension:** Decide whether cards are replaced and whether rounds depend on earlier rounds, and explain how that changes the probabilities. (7.SP.C.8a; formalized in HS S-CP.2 and S-CP.5)
+- **Extension:** Compute probabilities that change as cards are removed from the deck. (HS S-CP.3, S-CP.6)
+- **Extension:** Use probability to analyze guessing strategies, including counting cards. (HS S-MD.7 (+))
+- **Extension:** Design or use a simulation of the game to estimate the probability of winning. (7.SP.C.8c; see the Scratch, Python, and R versions)
+
+| Standard | What it asks | Where it appears in this lesson |
+|---|---|---|
+| 7.SP.C.5 | Probability as a number from 0 to 1 describing likelihood | Scorecard columns Probability of High and Probability of Low, every version |
+| 7.SP.C.6 | Approximate probability from data; long-run relative frequency | The 8 scoring rounds, plus a step pooling class results |
+| 7.SP.C.7, 7a | Build a probability model and compare it to observed frequencies | Model for Game Version 1; the comparison step |
+| 7.SP.C.8a | Compound event probability as a fraction of the sample space | Version 1 (72 outcomes, no ties). Extension: Version 2 (81 outcomes, 9 ties that count as a loss) |
+| 7.SP.C.8b | Represent sample spaces with lists, tables, tree diagrams | Scorecard questions; a dealer-by-player grid |
+| 7.SP.C.8c (extension) | Design and use a simulation | Scratch, Python, and R versions |
+| HS S-CP.2 (extension) | Independent events | Rounds that reset (Versions 1 and 2) vs rounds that do not (Versions 3 and 4) |
+| HS S-CP.3, S-CP.5, S-CP.6 (extension) | Conditional probability and dependence | Versions 3 and 4; Alternative Version 2 |
+| HS S-CP.9 (+) (extension) | Permutations and combinations | Alternative Version 3 (sums of three cards) |
+| HS S-MD.7 (+) (extension) | Analyze decisions and strategies using probability | Alternative Versions 2 and 3 |
+
+# Teacher Instructions
+
+**It is highly recommended that the instructor plays this game prior to implementing it in the classroom. This can be done by playing the game with another colleague who plans to implement this lesson as well, a teaching assistant who will also be assisting with implementing this lesson, or with a friend or family member.**
+
+## Materials Needed
+
+- A deck of cards numbered 1-9 ***for each student*.** See the player cards in [Printable Materials](#printable-materials).
+- A method for providing demonstrations for students. Options include a method of projecting videos or utilizing large decks on a board. See the demonstration cards in [Printable Materials](#printable-materials).
+- Scorecard and pencil for each student. See the scorecards in [Printable Materials](#printable-materials).
+- Extra paper and calculators for each student. (optional)
+
+The method for demonstration is at the instructor's discretion, depending on the resources available. If printing a large demonstration deck, it is recommended that the large cards are laminated, a magnetic board is utilized, and magnets are attached to the cards.
+
+## Set-Up
+
+Each student will need a deck of cards. It is not necessary to have different colors for the decks, but this can be helpful.
+
+The students will need to be in pairs, as each game that they will play will be two-player games. It is at the instructor's discretion as to whether students are allowed to change partners during the process of this activity. Here are some suggestions:
+
+- Students remain in their pairs for two rounds, to allow each student to be the "dealer" for one round and the "player" for the other round. It is recommended that a formula be in place for how students should change partners.
+    - An example is to designate which students are to be stationary and which students are to rotate. To help keep a line from forming, rotating students should occupy the next available seat when rotating.
+    - Print two different colors of decks and designate which color is to rotate. Occasionally switch students and decks to help change who is rotating. Change the color that is rotating between versions of the game.
+- Students remain in their pairs for each version of the game, and only change pairs when the game style changes. Designate how students are to rotate partners prior to giving the new game instructions.
+- Students are to remain in their designated pairs for all versions and all rounds.
+
+To help keep it as true probability, it is recommended that the instructor apply a rotating partner strategy.
+
+**Scorecard explanation video: <https://youtu.be/J531arHu0A8>**
+
+**This video is only for instructors to use to help with how to help students with it and determine if edits are needed.**
+
+## Instructor Demonstration
+
+Before having the students play each version of the game, it is recommended that the instructor provide a demonstration for the students. The instructor can do this by either providing a demonstration playthrough or projecting the video recordings provided. An example of providing the demonstration is to play the game at the chalk/whiteboard with enlarged cards. If the board is magnetic, the instructor can adhere magnets to the back of each demonstration card.
+
+The instructor should also have students play several sample rounds and moderate play to ensure students understand how to play the game prior to playing the game for scoring rounds.
+
+After playing two sample rounds, rotating which student is the player and which student is the dealer, deliberate the question prompts on the scorecard. Consider providing an example of how these questions affect how the probabilities are calculated.
+
+<!-- NOTE: Discussing the scorecard prompts is where students reason about the sample space (7.SP.C.8a, 8b). Consider adding a sample space list or table here. -->
+
+## General Gameplay
+
+The game is called High Low. In this game, it is all about the probability of whether the player's card is higher or lower than the dealer's card!
+
+For all versions of this game, each pair of students will take turns as to which student is the dealer and which student is the player.
+
+After shuffling cards, the dealer will flip a card to reveal its number. The player will guess whether the number on the next card will be higher or lower than the dealer's card. The dealer will then reveal the number on a second card.
+
+If the player guessed correctly, they won! If the player guessed wrong, the dealer won! The winning player adds 1 to their overall score.
+
+<!-- NOTE: Ties can happen in Game Versions 2 and 4 and Alternative Version 1. Consider stating the rule here, for example: "If the cards tie, the dealer wins." -->
+
+**Students should be given at least two rounds of practice for each version of the game (1 as the dealer and 1 as the player). For scoring, students are to play 8 rounds (4 rounds as the dealer and 4 rounds as the player).**
+
+<!-- NOTE: The lesson has no step comparing observed wins to predicted probabilities (7.SP.C.6, 7.SP.C.7). Consider a debrief where the class pools wins and compares them to 7/9 (about 78%) for Version 1 with best guesses, or 56/81 (about 69%) for Version 2 when ties count as a loss. -->
+
+## Game Version 1: One Deck, reset decks between rounds.
+
+**Video Demonstration: <https://youtu.be/HOL1Idfrdtc>**
+
+The students will play with one of their decks. One student can set their deck aside for now.
+
+For each round, the general gameplay will be utilized from one deck, where both the dealer's number and the player's number come from the same deck.
+
+In between rounds, the cards revealed will be returned to the deck and the deck is to be shuffled by the dealer.
+
+<!-- NOTE: Core version. 7.SP.C.7a and 7.SP.C.8a: 9 x 8 = 72 equally likely outcomes, no ties, independent rounds. Best-guess win rate 7/9. -->
+
+## Game Version 2: Two Decks, reset decks between rounds.
+
+**Video Demonstration: <https://youtu.be/YgDZe1TixVg>**
+
+The students will play with both decks. The two decks are to be kept separate.
+
+For each round, the dealer's card will come from one deck and the player's card will come from the other deck.
+
+In between rounds, the cards revealed will be returned to their respective decks (i.e. each deck should be reset to contain the numbers 1-9) and the deck is to be shuffled by the dealer. Each student should verify that the decks contain the numbers 1-9 between rounds.
+
+<!-- NOTE: Extension. 7.SP.C.8a and 8b: 9 x 9 = 81 outcomes, 9 ties. Best-guess win rate 56/81 when a tie counts as a loss. -->
+
+## Game Version 3: One Deck, play until the deck is empty.
+
+**Video Demonstration: <https://youtu.be/JUC41m0VaAo>**
+
+The students will play with one of their decks, like game version 1.
+
+In between rounds, the cards are *not* returned to the deck. The game is repeated until there is only one card remaining in the deck. Once there is only one card remaining in the deck, the cards played are to be returned to the deck. The students will need to perform this at least once to complete all eight rounds.
+
+<!-- NOTE: Extension. Dependent events and conditional probability (HS S-CP.3, S-CP.6). -->
+
+## Game Version 4: Two Decks, play until the deck is empty.
+
+**Video Demonstration: <https://youtu.be/iy3sfioS3OI>**
+
+The students will play with both decks, like game version 2.
+
+In between rounds, the cards are *not* returned to their respective decks. As with game version 3, the cards are not returned to their respective decks until there is only one card left in each deck. However, unlike game version 3, the students should not need to reset the decks to complete all eight rounds.
+
+<!-- NOTE: Extension. Same standards as Version 3, plus ties are possible. -->
+
+# Alternative Versions for Advanced Difficulty
+
+If you have advanced students, consider implementing these alternative versions that present more of a challenge. The scorecards for these versions are listed in [Printable Materials](#printable-materials).
+
+<!-- NOTE: Consider labeling this section as high school extensions (S-CP.6, S-CP.9 (+), S-MD.7 (+)). -->
+
+## Alternative Game Version 1: Two Decks shuffled together, reset deck between rounds.
+
+This is exactly like Game Version 2, except that the decks are not kept separate.
+
+This version's complexity is in that there is a lower probability in a tie, as there are two of every other number in the deck and only one that is the same as the dealer's card. If implementing Alternative Game Version 2, it is recommended that this version be played as well to help students better understand how the two decks combined alter the probabilities.
+
+**Note: both decks should be the same color in this version so the students aren't considering whether or not they may have tied.**
+
+## Alternative Game Version 2: Two Decks shuffled together, do not reset the deck.
+
+This is exactly like Game Version 4, except that the decks are not kept separate.
+
+This version's complexity is in counting cards, which is generally frowned upon in most gambling establishments. They may find it easier to compute the probability in the first round or two, but as more rounds occur, the more complex the game becomes, as they will need to keep track of which cards have been played.
+
+It is at the instructor's discretion as to whether they allow the students to check the discarded cards to verify which cards should not be considered when computing probabilities. It is recommended that students who struggle more with computing probabilities be permitted to check these cards to help them practice more with computing the probabilities.
+
+**Note: both decks should be the same color in this version so the students aren't considering whether or not they may have tied.**
+
+## Alternative Game Version 3: Different rules, multiple cards revealed and hidden.
+
+**Video Demonstration: <https://youtu.be/vwVk7Ri_DQA>**
+
+This version is unlike all the other game versions and plays differently than the general gameplay. The students will only need one deck in this version.
+
+In this version, the dealer will place 6 cards face down on the table. 3 of these cards are designated as the dealer's cards and 3 of these cards are designated as the player's cards. The dealer will reveal 2 of their cards and 1 of the player's cards. The dealer and the player are not allowed to preview the cards that are not revealed currently.
+
+The player is to guess whether they believe the sum of their cards is higher or lower than the sum of the dealer's cards.
+
+After the player has guessed, the dealer will reveal the remaining cards and compute the sum of each player's cards. If the player's guess was correct, they won. Otherwise, the dealer won.
+
+**For the scorecard, only 4 rounds are provided on the scoring table. Feel free to adjust to add more rows for rounds.**
