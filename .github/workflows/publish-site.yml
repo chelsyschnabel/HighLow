@@ -27,6 +27,8 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.8.25
 
       - name: Render the site, Word file, and PDF
         run: quarto render site
