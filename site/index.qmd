@@ -11,10 +11,10 @@ High Low is a two-player card game built from a deck of cards numbered 1 to 9. T
 ## Probability lesson
 
 - [Probability Teacher Edition](probability-teacher-edition.qmd), with downloads in Word and PDF
-- [Player cards (Word)](https://github.com/chelsyschnabel/HighLow/raw/main/Card-Files/cards%201%20through%209.docx)
-- [Demonstration cards (Word)](https://github.com/chelsyschnabel/HighLow/raw/main/Card-Files/1%20through%209%20big%20demo%20cards.docx)
+- [Player cards (Word)](https://github.com/chelsyschnabel/HighLow/raw/main/Card-Files/cards%201%20through%209.docx) - also available in [Canva](https://canva.link/8bz9gfvdi8o7df6)
+- [Demonstration cards (Word)](https://github.com/chelsyschnabel/HighLow/raw/main/Card-Files/1%20through%209%20big%20demo%20cards.docx) - also available in [Canva](https://canva.link/8c051zp85b3z0a2)
 
-Desmos lessons in progress, breaking this down into four lessons, each with a classroom edition (the recommended version) and a virtual edition.
+**Desmos lessons in development!** They will break this down into four distinct lessons geared towards Grade 7 and high school standards. Each lesson will have a classroom edition (the recommended version) and a virtual edition. These lessons will have their own teacher and student editions.
 
 ## Programming versions
 
