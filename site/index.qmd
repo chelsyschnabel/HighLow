@@ -14,6 +14,8 @@ High Low is a two-player card game built from a deck of cards numbered 1 to 9. T
 - [Player cards (Word)](https://github.com/chelsyschnabel/HighLow/raw/main/Card-Files/cards%201%20through%209.docx)
 - [Demonstration cards (Word)](https://github.com/chelsyschnabel/HighLow/raw/main/Card-Files/1%20through%209%20big%20demo%20cards.docx)
 
+Desmos lessons in progress, breaking this down into four lessons, each with a classroom edition (the recommended version) and a virtual edition.
+
 ## Programming versions
 
 - [Play the Scratch version](https://scratch.mit.edu/projects/1394284908/)
