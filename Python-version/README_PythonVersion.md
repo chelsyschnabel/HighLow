@@ -16,7 +16,7 @@
   - Step-by-step progression from simple to complex implementations
   - Space for student experimentation and reflection
 
-- Supporting R files (referenced in teacher edition):
+- Supporting Python files (referenced in teacher edition):
   - `highLowGame.py`: Complete game implementation
   - `highLowCode.py`: Code components and functions
 
